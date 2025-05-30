@@ -1,7 +1,0 @@
-È
--D:\DockerDemo\xTests\PersonControllerTests.csxTests?
-xTests.PersonControllerTestsIndex_ReturnsViewWithPeopleListK
-0xTests.PersonControllerTests.HomeControllerTestsIndex_ReturnsViewResultG
--xTests.PersonControllerTests.PersonModelTestsPerson_Name_IsRequiredP
-0xTests.PersonControllerTests.ErrorViewModelTestsErrorViewModel_Has_RequestIdf
-0xTests.PersonControllerTests.ErrorViewModelTests2ShowRequestId_ReturnsTrue_When_RequestId_IsNotNull

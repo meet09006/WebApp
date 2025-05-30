@@ -1,1 +1,0 @@
-D:\DockerDemo\WebApp\.sonarqube\out\2

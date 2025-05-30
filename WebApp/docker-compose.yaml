@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+ sqlserver:
+  image: mcr.microsoft.com/mssql/server:2019-latest
+  container_name: sqlserver
+  environment:
+   - ACCEPT_EULA=Y 
+   - MSSQL_SA_PASSWORD=Welcome@12345
+  ports:
+   - "1433:1433"
+  networks:
+   - localnetwork
+
+ webapp:
+  image: meet09006/webapp:5.0
+  container_name: webapp
+  ports:
+   - "8080:8080"
+  depends_on:
+   - sqlserver
+  networks:
+   - localnetwork
+  environment:
+   - ASPNETCORE_ENVIRONMENT=Development
+   - ConnectionStrings_DefaultConnection=Server=sqlserver,1433; Database=MyAppDb; User Id=sa; Password=Welcome@12345;TrustServerCertificate=True
+   #- ASPNETCORE_URLS=http://+:80
+
+networks:
+ localnetwork:
+  driver: bridge

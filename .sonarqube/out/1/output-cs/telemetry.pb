@@ -1,1 +1,0 @@
-8R"D:\DockerDemo\xTests\xTests.csproj¢net8.0òCSharp12
