@@ -1,0 +1,28 @@
+@model IEnumerable<WebApp.Models.People>
+
+<h2>People</h2>
+
+
+<a href="@Url.Action("Upsert", "Person", new { id = 0 })" class="btn btn-primary">Add Person</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+            <tr>
+                <td>@person.Name</td>
+                <td>@person.Age</td>
+                <td>
+                    <a href="@Url.Action("Upsert", "Person", new { id = person.Id })" class="btn btn-warning">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

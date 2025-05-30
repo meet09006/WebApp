@@ -1,0 +1,11 @@
+L
+AD:\DockerDemo\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.csutf-8G
+<D:\DockerDemo\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfo.csutf-8_
+TD:\DockerDemo\WebApp\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8I
+>D:\DockerDemo\WebApp\obj\Debug\net8.0\WebApp.GlobalUsings.g.csutf-8(
+D:\DockerDemo\WebApp\Program.csutf-8.
+%D:\DockerDemo\WebApp\Models\Person.csutf-86
+-D:\DockerDemo\WebApp\Models\ErrorViewModel.csutf-82
+)D:\DockerDemo\WebApp\Data\AppDbContext.csutf-8=
+4D:\DockerDemo\WebApp\Controllers\PersonController.csutf-8;
+2D:\DockerDemo\WebApp\Controllers\HomeController.csutf-8

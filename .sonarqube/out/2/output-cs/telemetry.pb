@@ -1,0 +1,1 @@
+8R"D:\DockerDemo\WebApp\WebApp.csproj¢net8.0òCSharp12
