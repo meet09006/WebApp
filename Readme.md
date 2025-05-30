@@ -42,8 +42,12 @@ SELECT * FROM People;
 
 
 
-Docker Commands:
-docker login -u meet09006 
-docker build -t meet09006/webapp:5.0 .
-docker push meet09006/webapp:5.0
-docker-compose up
+Docker Commands (Replace username meet09006, with your username):
+
+Docker Login: docker login -u meet09006 
+
+Docker build: docker build -t meet09006/webapp:5.0 .
+
+Docker push to Hub: docker push meet09006/webapp:5.0
+
+Run Docker compose: docker-compose up
