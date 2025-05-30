@@ -1,0 +1,15 @@
+# Ignore all bin and obj folders recursively
+**/bin/
+**/obj/
+
+# Ignore SonarQube analysis folder
+**/.sonarqube/
+
+# Ignore TestResult folders recursively (remove the dot unless it's part of the folder name)
+TestResult/
+
+# Ignore Visual Studio settings folder
+.vs/
+
+# Ignore wwwroot folders recursively (if you want to exclude all wwwroot folders)
+**/wwwroot/

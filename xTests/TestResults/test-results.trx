@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ccdeb3e3-c6c1-4ba4-8545-db07366f2a8e" name="HARMEET SINGH@LAPTOP-MUQB3KS1 2025-03-28 23:04:14" runUser="LAPTOP-MUQB3KS1\HARMEET SINGH" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-03-28T23:04:14.7487304+13:00" queuing="2025-03-28T23:04:14.7487307+13:00" start="2025-03-28T23:04:12.5015244+13:00" finish="2025-03-28T23:04:17.0531350+13:00" />
+  <TestSettings name="default" id="f99a0bd4-682e-43bb-ad3a-6518146e1813">
+    <Deployment runDeploymentRoot="HARMEET_SINGH_LAPTOP-MUQB3KS1_2025-03-28_23_04_14" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="96f749ac-54e1-4b0a-946d-ee7aa744306e" testId="27b66e12-1ed0-6735-9b63-e7ecbe8d2143" testName="xTests.PersonControllerTests+HomeControllerTests.Index_ReturnsViewResult" computerName="LAPTOP-MUQB3KS1" duration="00:00:02.0286643" startTime="2025-03-28T23:04:15.6964343+13:00" endTime="2025-03-28T23:04:15.6964347+13:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96f749ac-54e1-4b0a-946d-ee7aa744306e" />
+    <UnitTestResult executionId="580a1897-70ff-4985-811c-76d6eeeebc2b" testId="2cc159a9-0095-175b-7248-9cd559466fd9" testName="xTests.PersonControllerTests.Index_ReturnsViewWithPeopleList" computerName="LAPTOP-MUQB3KS1" duration="00:00:03.3043020" startTime="2025-03-28T23:04:16.9675404+13:00" endTime="2025-03-28T23:04:16.9675410+13:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="580a1897-70ff-4985-811c-76d6eeeebc2b" />
+    <UnitTestResult executionId="3fe681c0-c959-4354-9ebb-c62bd54650db" testId="dd2e1755-40de-ff6c-cd34-50a0e9b8ea16" testName="xTests.PersonControllerTests+ErrorViewModelTests.ErrorViewModel_Has_RequestId" computerName="LAPTOP-MUQB3KS1" duration="00:00:00.0007616" startTime="2025-03-28T23:04:14.4085811+13:00" endTime="2025-03-28T23:04:14.4085812+13:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fe681c0-c959-4354-9ebb-c62bd54650db" />
+    <UnitTestResult executionId="1cc796c5-978b-4622-bd6a-dc8dcbf40f28" testId="9683d970-10b4-2e23-bf01-2ba2487273e4" testName="xTests.PersonControllerTests+ErrorViewModelTests.ShowRequestId_ReturnsTrue_When_RequestId_IsNotNull" computerName="LAPTOP-MUQB3KS1" duration="00:00:00.7238417" startTime="2025-03-28T23:04:14.4070869+13:00" endTime="2025-03-28T23:04:14.4070869+13:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cc796c5-978b-4622-bd6a-dc8dcbf40f28" />
+    <UnitTestResult executionId="d56f185f-8206-4e6e-8191-2e912d86537b" testId="fc0b8045-89db-8126-b948-6b063c6acd15" testName="xTests.PersonControllerTests+PersonModelTests.Person_Name_IsRequired" computerName="LAPTOP-MUQB3KS1" duration="00:00:00.7310761" startTime="2025-03-28T23:04:14.4035415+13:00" endTime="2025-03-28T23:04:14.4035728+13:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d56f185f-8206-4e6e-8191-2e912d86537b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="xTests.PersonControllerTests+ErrorViewModelTests.ShowRequestId_ReturnsTrue_When_RequestId_IsNotNull" storage="d:\dockerdemo\xtests\bin\debug\net8.0\xtests.dll" id="9683d970-10b4-2e23-bf01-2ba2487273e4">
+      <Execution id="1cc796c5-978b-4622-bd6a-dc8dcbf40f28" />
+      <TestMethod codeBase="D:\DockerDemo\xTests\bin\Debug\net8.0\xTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="xTests.PersonControllerTests+ErrorViewModelTests" name="ShowRequestId_ReturnsTrue_When_RequestId_IsNotNull" />
+    </UnitTest>
+    <UnitTest name="xTests.PersonControllerTests+ErrorViewModelTests.ErrorViewModel_Has_RequestId" storage="d:\dockerdemo\xtests\bin\debug\net8.0\xtests.dll" id="dd2e1755-40de-ff6c-cd34-50a0e9b8ea16">
+      <Execution id="3fe681c0-c959-4354-9ebb-c62bd54650db" />
+      <TestMethod codeBase="D:\DockerDemo\xTests\bin\Debug\net8.0\xTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="xTests.PersonControllerTests+ErrorViewModelTests" name="ErrorViewModel_Has_RequestId" />
+    </UnitTest>
+    <UnitTest name="xTests.PersonControllerTests+PersonModelTests.Person_Name_IsRequired" storage="d:\dockerdemo\xtests\bin\debug\net8.0\xtests.dll" id="fc0b8045-89db-8126-b948-6b063c6acd15">
+      <Execution id="d56f185f-8206-4e6e-8191-2e912d86537b" />
+      <TestMethod codeBase="D:\DockerDemo\xTests\bin\Debug\net8.0\xTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="xTests.PersonControllerTests+PersonModelTests" name="Person_Name_IsRequired" />
+    </UnitTest>
+    <UnitTest name="xTests.PersonControllerTests+HomeControllerTests.Index_ReturnsViewResult" storage="d:\dockerdemo\xtests\bin\debug\net8.0\xtests.dll" id="27b66e12-1ed0-6735-9b63-e7ecbe8d2143">
+      <Execution id="96f749ac-54e1-4b0a-946d-ee7aa744306e" />
+      <TestMethod codeBase="D:\DockerDemo\xTests\bin\Debug\net8.0\xTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="xTests.PersonControllerTests+HomeControllerTests" name="Index_ReturnsViewResult" />
+    </UnitTest>
+    <UnitTest name="xTests.PersonControllerTests.Index_ReturnsViewWithPeopleList" storage="d:\dockerdemo\xtests\bin\debug\net8.0\xtests.dll" id="2cc159a9-0095-175b-7248-9cd559466fd9">
+      <Execution id="580a1897-70ff-4985-811c-76d6eeeebc2b" />
+      <TestMethod codeBase="D:\DockerDemo\xTests\bin\Debug\net8.0\xTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="xTests.PersonControllerTests" name="Index_ReturnsViewWithPeopleList" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="27b66e12-1ed0-6735-9b63-e7ecbe8d2143" executionId="96f749ac-54e1-4b0a-946d-ee7aa744306e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cc159a9-0095-175b-7248-9cd559466fd9" executionId="580a1897-70ff-4985-811c-76d6eeeebc2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd2e1755-40de-ff6c-cd34-50a0e9b8ea16" executionId="3fe681c0-c959-4354-9ebb-c62bd54650db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9683d970-10b4-2e23-bf01-2ba2487273e4" executionId="1cc796c5-978b-4622-bd6a-dc8dcbf40f28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc0b8045-89db-8126-b948-6b063c6acd15" executionId="d56f185f-8206-4e6e-8191-2e912d86537b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.6)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: xTests&#xD;
+[xUnit.net 00:00:00.14]   Discovered:  xTests&#xD;
+[xUnit.net 00:00:00.15]   Starting:    xTests&#xD;
+[xUnit.net 00:00:03.50]   Finished:    xTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
