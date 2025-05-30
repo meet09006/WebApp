@@ -1,3 +1,4 @@
+# Completed tasks:
 1. Created SQL Server container in docker
 2. Create .net application
 3. Run in container
@@ -6,17 +7,17 @@
 6. Used container name as server name in connection string
 7. 2 container running in isolated mode and connected to each other
 8. Docker compose for all this steps
-9. Will run docker compose and host complete running application
+9. Run docker compose and host complete running application
+10. Integrated New Relic
 
 
-
-#Pending
+# Pending
 1. Auto push new build
 2. Run docker compose to use latest build
 
 
 
-DB SETUp:
+# DB SETUp:
 -- Step 1: Create the database
 CREATE DATABASE MyAppDb;
 
@@ -42,7 +43,7 @@ SELECT * FROM People;
 
 
 
-Docker Commands (Replace username meet09006, with your username):
+# Docker Commands (Replace username meet09006, with your username):
 
 Docker Login: docker login -u meet09006 
 
